@@ -1,0 +1,140 @@
+/* Section.scss */
+.section {
+    padding: 75px 0px;
+    .head{
+        text-align: center;
+        
+        .header{
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.img-container {
+    text-align: center;
+    line-height: 100%;
+}
+
+.img-profile {
+    border-radius: 50%;
+}
+
+.about-hello {
+    letter-spacing: 0.05em;
+}
+
+.mini-section {
+    padding: 25px 0;
+}
+
+.project {
+    color: #ecf0f1;
+    .container {
+        padding: 75px 1.3%;
+        
+        .name {
+            font-family: $glober;
+            font-weight: normal;
+        }
+
+        .description {
+            font-family: $opensans;
+            font-weight: light;
+        }
+
+        .btnWork {
+            width: auto;
+            text-align: center;
+            cursor: pointer;
+            -moz-border-radius: 2px; 
+            -webkit-border-radius: 2px; 
+            border-radius: 2px;
+            color: #FFF;
+            background: none;
+            border: 2px solid #ECF0F1;
+            font-family: $opensans;
+            display: inline;
+            margin: 5px auto;
+            margin-top: 50px;
+            transition: all 200ms ease-in-out 0s;
+            -o-transition: all 200ms ease-in-out 0s;
+            -moz-transition: all 200ms ease-in-out 0s;
+            -ms-transition: all 200ms ease-in-out 0s;
+            font-weight: 400;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 25px 10px 25px;
+            &:hover {
+                color: #1D1D1D !important;
+                border: 2px solid #ECF0F1;
+                background: #ECF0F1;
+            }
+        }
+    }
+}
+
+.pright {
+    text-align: right;
+}
+
+#potable {
+    background-color: #2980b9;  
+    
+    .container {
+        background: url(../images/Project/experimental/iMac-temp.png) no-repeat top right scroll;
+        background-size: auto 100%;
+    }
+}
+
+#monomo {
+    background-color: #1D1D1D;
+    
+    .container {
+        background: url(../images/Project/experimental/MacBook-temp.png) no-repeat top left scroll;
+        background-size: auto 100%;
+    }
+}
+
+#twerkopter {
+    background-color: #495a6f;
+    
+    .container {
+        background: url(../images/Project/experimental/Lumia-temp.png) no-repeat top right scroll;
+        background-size: auto 100%;
+    }
+}
+
+#taptastic {
+    background-color: #696969;
+    
+    .container {
+        background: url(../images/Project/experimental/iPhone-temp.png) no-repeat top left scroll;
+        background-size: auto 100%;
+    }
+}
+
+
+
+.experience {
+    max-width: 100%;
+    border-left: 7px solid #2c3e50;
+    padding: 15px 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    
+    a {
+        font-weight: 400;
+        color: #f39c12; 
+    }
+}
+
+.exp-date {
+  margin-bottom: 7px; 
+}
+
+@media screen and (min-width: 1024px) {
+    .experience {
+        max-width: 70%;
+    }
+}

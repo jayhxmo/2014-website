@@ -1,0 +1,102 @@
+/* Introduction.scss */
+
+/* Variables */
+    /* Font Variables */
+    $opensans: 'Open Sans', sans-serif;
+    $lato: 'Lato', sans-serif;
+    $light: 300;
+    $normal: 400;
+    $semibold: 600;
+    $bold: 700;
+
+.intro-bg {
+    position: fixed;
+    z-index: -999;
+    width: 100%;
+    height: 512px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/background.jpg) no-repeat center center scroll;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+}
+
+.mo-intro {
+    display: table;
+    width: 100%;
+    /* CHANGE VALUE IF FULL SCREEN */
+    height: 512px;
+    
+    /*
+    z-index: -999;
+    */
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    margin: 0;
+    margin-top: 40px;
+    padding: 125px auto;
+    /* UNCOMMENT THE LINE BELOW IF YOU WANT TO USE AN IMAGE AS YOUR BACKGROUND */
+    /* background: url(../images/ms-bg.jpg) no-repeat center center scroll; */
+    /*background-color: #1D1D1D;*/
+    color: #FFF;
+    /* UNCOMMENT IF FULL SCREEN*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+    .container {
+        display: table-cell;
+        vertical-align: middle;
+        
+        .content {
+            color: #FFF;
+            text-align: center;
+            padding: 100px 5px 20px 5px;
+            
+            h1 {
+                font-family: $glober;
+                font-weight: 100;
+                margin: 15px;
+                margin-bottom: 5px;
+            }
+            
+            h2 {
+                font-family: $raleway;
+                font-weight: $light;
+                letter-spacing: 0.07em;
+                margin: 0;
+                padding: 0;
+            }
+            
+            hr {
+                margin-top: 7px;
+                margin-bottom: 14px;
+                padding: 0;
+            }
+        }
+    }
+    
+    .vertical {
+        vertical-align: top;
+    }
+}
+
+
+
+
+
